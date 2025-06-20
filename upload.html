@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload Photos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="custom-alert" class="custom-alert hidden"></div>
+    <h1 class="heading">Upload Photos</h1>
+    <h2 class="content">
+      reposition photos in the box and click on apply crop, then create
+      Photobooth button .
+    </h2>
+    <div class="form-div">
+      <form class="form">
+        <!-- Three image upload sections -->
+        <div class="upload-wrapper" data-id="img-1">
+          <div class="draggable-container"></div>
+          <input type="file" id="img-1" accept="image/*" />
+          <button type="button" class="apply-btn">Apply Crop</button>
+        </div>
+
+        <div class="upload-wrapper" data-id="img-2">
+          <div class="draggable-container"></div>
+          <input type="file" id="img-2" accept="image/*" />
+          <button type="button" class="apply-btn">Apply Crop</button>
+        </div>
+
+        <div class="upload-wrapper" data-id="img-3">
+          <div class="draggable-container"></div>
+          <input type="file" id="img-3" accept="image/*" />
+          <button type="button" class="apply-btn">Apply Crop</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="btn-div">
+      <button onclick="goToFilteredPage()" class="filter-btn">
+        Create Photobooth
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
