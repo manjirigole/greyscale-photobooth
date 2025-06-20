@@ -11,6 +11,7 @@ A simple and interactive web application that allows users to upload, crop, and 
 - Local storage used to save edits temporarily
 
 ## Live Site: Click here to try the app
+https://manjirigole.github.io/greyscale-photobooth/
 
 ### Screenshots
 a. index.html
