@@ -1,4 +1,4 @@
-# Greyscale Photobooth
+# Greyscale Photobooth <3
 
 A simple and interactive web application that allows users to upload, crop, and customize a photo strip with filters, captions, and date, then download the final greyscale strip.
 
